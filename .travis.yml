@@ -1,10 +1,10 @@
 language: node_js
 node_js:
-  - 18
+  - 17
 deploy:
   provider: pages
   skip_cleanup: true
-  github_token: $github_token
+  github_token: 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
   local_dir: build
   on:
     branch: main
