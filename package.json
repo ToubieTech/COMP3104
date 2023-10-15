@@ -6,8 +6,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "pre-deploy": "yarn-run-build",
-    "deploy": "gh-pages-d-build",
+    "pre-deploy": "npm run build",
+    "deploy": "gh-pages -d-build",
     "test": "echo \"Error: no test specified\"",
     "eject": "react-scripts eject"
   },
