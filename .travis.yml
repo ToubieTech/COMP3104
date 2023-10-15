@@ -12,7 +12,7 @@ cache:
 
 script:
   #- yarn lint
-  - npm build
+  - npm run build
   - mv build/index.html build/404.html
 
 deploy:
